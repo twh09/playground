@@ -2,7 +2,7 @@
 #include <string>
 #include <map>
 #include "BinaryLiterals.h"
-#include "GenericLambdaExpression.h"
+#include "Lambda.h"
 
 typedef void(*Component)();
 

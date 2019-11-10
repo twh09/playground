@@ -119,12 +119,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinaryLiterals.cpp" />
-    <ClCompile Include="GenericLambdaExpressions.cpp" />
+    <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryLiterals.h" />
-    <ClInclude Include="GenericLambdaExpression.h" />
+    <ClInclude Include="Lambda.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

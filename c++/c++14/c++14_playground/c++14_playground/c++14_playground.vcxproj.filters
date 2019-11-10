@@ -21,7 +21,7 @@
     <ClCompile Include="BinaryLiterals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GenericLambdaExpressions.cpp">
+    <ClCompile Include="Lambda.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="BinaryLiterals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GenericLambdaExpression.h">
+    <ClInclude Include="Lambda.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
