@@ -1,14 +1,15 @@
 #include <iostream>
 #include <string>
-#include <map>
+#include <unordered_map>
 #include "BinaryLiterals.h"
 #include "Lambda.h"
 
 typedef void(*Component)();
 
-std::map<std::string, Component> comp = {
+std::unordered_map<std::string, Component> comp = {
   {"BinaryLiterals", BinaryLiterals},
-  {"GenericLambda", GenericLambda}
+  {"GenericLambda", GenericLambda},
+  {"CaptureInitializers", CaptureInitializers}
 };
 
 void InsertHeader(std::string str)

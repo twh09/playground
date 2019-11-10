@@ -18,3 +18,14 @@ void GenericLambda()
   std::string foo = identity("foo");
   std::cout << "Output: " << foo << "\n";
 }
+
+void CaptureInitializers()
+{
+  std::cout << "This allows creating lambda captures initialized with arbitrary expressions.\n"
+    << "The name given to the captured value does not need to be related to any variables\nin the enclosing scopes and introduces a new name inside the lambda body.\n"
+    << "The initializing expression is evaluated when the lambda is created (not when it is invoked).\n\n";
+
+  std::cout << "auto f = [x = 1]{ return x; };\n";
+  auto f = [x = 1]{ return x; }; // returns 1
+  std::cout << "Result f: " << f() << "\n";
+}
