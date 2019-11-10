@@ -121,10 +121,15 @@
     <ClCompile Include="BinaryLiterals.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MakeUnique.cpp" />
+    <ClCompile Include="ReturnType.cpp" />
+    <ClCompile Include="VariableTemplates.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryLiterals.h" />
     <ClInclude Include="Lambda.h" />
+    <ClInclude Include="ReturnType.h" />
+    <ClInclude Include="VariableTemplates.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
